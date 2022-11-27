@@ -31,7 +31,7 @@ In the terminal
 git clone https://github.com/ArTongg/2022_ItC_MySQL.git
 cd 2022_ItC_MySQL
 mysql -u username -p < data/create_starwar.sql
-mysql -u username -p starwar < data/load_starwar.sql
+mysql --local-infile=1 -u username -p starwar < data/load_starwar.sql
 ```
 
 ### Playaround
