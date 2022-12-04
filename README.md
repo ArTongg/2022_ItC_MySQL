@@ -35,7 +35,7 @@ mysql --local-infile=1 -u username -p starwar < data/load_starwar.sql
 ```
 
 ### Playaround
-After instruction above, you should now run up docker container and enter MySQL. Then you could play with the SQL commands with MySQL like
+After instruction above, you should now run up and enter MySQL. Then you could play with the SQL commands with MySQL like
 ```
 mysql> show tables;
 +-------------------+
